@@ -1,0 +1,36 @@
+#headerOUT, #imgEva {
+	margin: auto;
+	padding: 7px;
+	width: 60%;
+	max-width: 100%;
+}
+#imgEva {
+	display: block;
+	height: 57%;
+	width: 62%;
+}
+@media screen and (max-width: 768px){
+	#imgEva {
+		display: block;
+		height: 35%;
+		width: 100%;
+		padding: 0;
+	}
+	#headerOUT{
+		margin: auto; 
+		width: 90%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	#imgEva {
+		display: block;
+		height: 35%;
+		width: 100%;
+		padding: 0;
+	}
+	#headerOUT{
+		margin: auto;
+		width: 100%;
+		padding: 0;
+	}
+}

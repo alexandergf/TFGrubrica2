@@ -1,0 +1,28 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "L'alumne ha redactat  de forma gens entenedora i no enfocat a una audiència sense coneixements previs."},
+			{"id":"1","text": "L'alumne ha redactat la memòria de forma entenedora només per a una audiència ja versada en el tema, o usa un llenguatge no gaire precís o gramaticalment dubtós."},
+			{"id":"2","text": "L'alumne ha redactat la memòria de forma molt entenedora per a una audiència general, usant un llenguatge precís i gramaticalment correcte."},
+			{"id":"3","text": "L'alumne ha redactat la memòria de forma molt entenedora, tant per a una audiència general com per a una audiència versada, usant un llenguatge precís i didàctic."}
+		],
+		[
+			{"id":"0","text": "L'alumne ha redactat  usant un llenguatge molt poc concret i ambigu; sovint gramaticalment incorrecte. El text conté moltes faltes ortogràfiques o sintàctiques, o errors tipogràfics."},
+			{"id":"1","text": "No ha definit tots els conceptes i acrònims que usa. El text conté faltes ortogràfiques o sintàctiques, o errors tipogràfics."},
+			{"id":"2","text": "Ha definit correctament tots els conceptes i acrònims que usa. El text està lliure de faltes ortogràfiques o sintàctiques, i d'errors tipogràfics."},
+			{"id":"3","text": "Ha definit tots els conceptes i acrònims que usa de manera separada (glossaris, etc.) Ha usat un llenguatge formal quan calia. El text està lliure de faltes ortogràfiques o sintàctiques, i d'errors tipogràfics."}
+		],
+		[
+			{"id":"0","text": "L'estudiant ha redactat la rúbrica amb una manca absoluta d'exemples, taules, gràfics, llistes o codi quan aquests semblaven adequats. Les referències bibliogràfiques no estan citades correctament. No ha citat les seves fonts d'informació."},
+			{"id":"1","text": "L'estudiant ha redactat la rúbrica però falten exemples adequats. Tanmateix ha fet un ús limitat de taules, gràfiques, llistes o codi allà on eren apropiats. Les referències bibliogràfiques estan totes citades, però no correctament. No se citen totes les fonts d'informació o no se citen correctament."},
+			{"id":"2","text": "L'estudiant ha redactat la rúbrica usant els exemples adequats. Ha fet servir taules, gràfics, llistes o codi quan eren apropiats. Les referències bibliogràfiques estan correctament citades. Se citen totes les fonts d'informació."},
+			{"id":"3","text": "L'estudiant ha redactat la rúbrica usant els exemples adequats. Ha usat taules, gràfics, llistes o codi on eren apropiats, i estan molt ben pensats per transmetre informació valuosa, sense ser recarregats. Ha usat notes aclaridores i/o apèndixs per complementar la informació principal. Les referències bibliogràfiques estan correctament citades. Es proporcionen referències addicionals per complementar la informació principal. Se citen totes les fonts d'informació i es donen les raons del seu ús."}
+		]
+	]
+}

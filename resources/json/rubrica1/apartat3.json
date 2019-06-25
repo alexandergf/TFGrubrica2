@@ -1,0 +1,40 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "L'estudiant no ha fet una planificació temporal preliminar del TFG, o la ha fet de manera incorrecta."},
+			{"id":"1","text": "L'estudiant ha fet una planificació temporal inicial del TFG,  amb menys qualitat de l'esperada, o poc convincent."},
+			{"id":"2","text": "L'estudiant ha fet una planificació temporal inicial del TFG correcte."},
+			{"id":"3","text": "L'estudiant ha fet una planificació temporalde forma precisa i per iniciativa de l'estudiant."}
+		],
+		[
+			{"id":"0","text": "No hi ha cap descripció de les eines de seguiment."},
+			{"id":"1","text": "Descriu parcialment  les eines de seguiment."},
+			{"id":"2","text": "Descriu bé  les eines de seguiment."},
+			{"id":"3","text": "Descriu perfectament  les eines de seguiment."}
+		],
+		[
+			{"id":"0","text": "No hi ha cap descripció del mètode de validació."},
+			{"id":"1","text": "Descriu parcialment els mètodes de treball o les eines de seguiment, però no aborda el mètode de validació."},
+			{"id":"2","text": "Descriu bé els mètodes i les eines, però descriu de manera insuficient el mètode de validació."},
+			{"id":"3","text": "Descriu perfectament el mètode de validació."}
+		],
+		[
+			{"id":"0","text": "L'estudiant no ha fet un anàlisi inicial dels costos de realització del TFG (esforços i recursos) o les ha fet de manera incorrecta."},
+			{"id":"1","text": "L'estudiant ha fet una  una anàlisi inicial dels costos de realització del TFG (esforços i recursos)  amb menys qualitat de l'esperada, o poc convincents."},
+			{"id":"2","text": "L'estudiant ha fet  una anàlisi inicial dels costos de realització del TFG (esforços i recursos) correctes."},
+			{"id":"3","text": "L'estudiant ha fet  una anàlisi inicial dels costos de realització del TFG ,esforços i recursos, seguint les pautes que se li han donat en les sessions del  TFG, a més s'ha documentat per a proporcionar una anàlisis de forma precisa."}
+		],
+		[
+			{"id":"0","text": "L'estudiant no ha fet una estimació de les limitacions i dels riscos del TFG, o la ha fet de manera incorrecta."},
+			{"id":"1","text": "L'estudiant ha fet una estimació de les limitacions i dels riscos del TFG amb menys qualitat de l'esperada, o poc convincents."},
+			{"id":"2","text": "L'estudiant ha fet una estimació de les limitacions i dels riscos correctes."},
+			{"id":"3","text": "L'estudiant ha fet una estimació de les limitacions i dels riscos de forma precisa."}
+		]
+	]
+}

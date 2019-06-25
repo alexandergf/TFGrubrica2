@@ -1,0 +1,22 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "L'estudiant no segueix la planificació inicial i per tant no identifica ni analitza eventuals desviacions."},
+			{"id":"1","text": "L'estudiant segueix la planificació inicial, identificant eventuals desviacions però sense justificar-les."},
+			{"id":"2","text": "L'estudiant segueix la planificació inicial, identificant i analitzant eventuals desviacions. Les desviacions estan justificades i es consideren en l'elaboració de la planificació final."},
+			{"id":"3","text": "L'estudiant segueix la planificació inicial, identificant i analitzant eventuals desviacions. Les desviacions estan molt ben argumentades i es consideren en l'elaboració de la planificació final."}
+		],
+		[
+			{"id":"0","text": "No té clara en quina etapa de la planificació es troba ni quant falta per finalitzar el projecte i si afecte en els costos del TFG."},
+			{"id":"1","text": "Sap en quina etapa de la planificació es troba però no és capaç d'estimar quant falta per finalitzar el projecte ni tampoc si afecte en els costos del TFG."},
+			{"id":"2","text": "L'estudiant exposa com afecten aquests canvis als objectius i costos del TFG, i té clar en quina etapa de la planificació es troba i quant falta per finalitzar el projecte."},
+			{"id":"3","text": "L'estudiant analitza amb tot detall com afecten aquests canvis els objectius i costos del TFG i té clar en quina etapa de la planificació es troba i quant falta per finalitzar el projecte."}
+		]
+	]
+}

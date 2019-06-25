@@ -1,0 +1,28 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "El projecte no resol el problema formulat inicialment i/o la qualitat de la solució és deficient. El projecte no arriba a assolir la majoria dels objectius plantejats a l'inici."},
+			{"id":"1","text": "El projecte resol el problema formulat inicialment però no del tot i/o amb menys qualitat de l'esperada; aconsegueix més de dos terços dels objectius plantejats a l'inici, tot i que no justifica prou bé els que no s'han assolit."},
+			{"id":"2","text": "El projecte resol suficientment el problema formulat inicialment i assoleix gairebé tots els objectius plantejats a l'inici. Si un objectiu no ha estat assolit, es justifica convenientment."},
+			{"id":"3","text": "El projecte resol de forma excel·lent el problema formulat inicialment i assoleix perfectament tots els objectius plantejats a l'inici."}
+		],
+		[
+			{"id":"0","text": "L'estudiant no ha realitzat una planificació inicial i/o final del TFG o l'ha realitzada incorrectament. No presenta una quantificació final i/o una valoració econòmica del treball realitzat."},
+			{"id":"1","text": "L'estudiant ha realitzat una planificació inicial i final del TFG. Presenta una quantificació final i una valoració econòmica del treball realitzat molt poc acurades."},
+			{"id":"2","text": "L'estudiant ha realitzat una planificació inicial i final del TFG, justificant les desviacions identificades. Presenta una quantificació final i una valoració econòmica correctes del treball realitzat."},
+			{"id":"3","text": "L'estudiant ha realitzat una planificació inicial i final del TFG, justificant acuradament les desviacions identificades. Presenta una quantificació final i una valoració econòmica del treball realitzat de molta qualitat."}
+		],
+		[
+			{"id":"0","text": "L'estudiant no treu conclusions del treball, o bé fa afirmacions sense aportar cap evidència empírica."},
+			{"id":"1","text": "Aporta informació que permetria a altres comprovar els seus resultats, o bé aporta alguna prova de forma anecdòtica."},
+			{"id":"2","text": "Ha presentat una estratègia per aportar proves de les seves afirmacions finals i les ha resumides de forma descriptiva."},
+			{"id":"3","text": "Ha presentat una estratègia per aportar proves de les seves afirmacions finals i les ha resumides controlant els riscos estadístics d'error."}
+		]
+	]
+}

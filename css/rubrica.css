@@ -1,0 +1,137 @@
+#pdf{
+	height: 40%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#iframe,#frases,#puntuacio{
+	height: 60%;
+	width: 49%;
+	display: inline;
+}
+#iframe,#puntuacio{
+	border: 0;
+}
+#frases,#puntuacio{
+	float: right;
+}
+#bodyOUT,#headerOUT{
+	margin: auto;
+	padding: 7px;
+	width: 65%;
+	max-width: 100%;
+	position: relative;
+}
+#btn,#atras,#siguiente,#enviar{
+	min-width: 102px;
+	height: 34px;
+	background-color: #0A79B8;
+	color: white;
+	padding: 0px 15px;
+	margin: auto;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+    text-align: center;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.647058823529412);
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.337058823529412);
+	font-family: inherit;
+	margin: 0px 20px;
+}
+#btns{
+	display: inline-flex;
+	margin-bottom: 10px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.return{
+	margin: 20px auto;
+	display: flex;
+}
+.parallax{
+	position: relative;
+	/* Set a specific height */
+	min-height: 200px; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center -280;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+}
+.intro, p{
+	font-family: inherit;
+}
+@media screen and (max-width: 768px){
+	#iframe,#frases,#puntuacio,#pdf{
+		height: 70%;
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	#bodyOUT{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		height: 200%;
+	}
+	.return{
+		margin: 20px 0;
+		width: 95%;
+		align-content: center;
+	}
+	.parallax{
+		position: relative;
+		min-height: 200px;
+		background-position: center -50;
+		background-attachment: inherit;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.5;
+		background-size: 650px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	#iframe,#frases,#puntuacio,#pdf{
+		height: 100%;
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 35px;
+	}
+	#puntuacio{
+		height: 65%;
+	}
+	#bodyOUT{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		height: 150%;
+		align-items: center;
+	}
+	.return{
+		margin: 20px 0;
+		width: 95%;
+		align-content: center;
+	}
+	.parallax{
+		position: relative;
+		min-height: 200px;
+		background-position: center -50;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.5;
+		background-size: 1000px;
+		margin-left: -8px;
+	}
+	#headerOUT{
+		width: 100%;
+	}
+	#btn{
+		width: 40%;
+	}
+}

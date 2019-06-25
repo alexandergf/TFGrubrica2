@@ -1,0 +1,28 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "El llenguatge és inadequat. L'estudiant fa servir falques (muletillas). El to de veu és inaudible. No s'entenen les explicacions."},
+			{"id":"1","text": "L'estudiant fa servir un llenguatge tècnic adequat. La veu és monòtona i/o s'entrebanca. Les explicacions resulten una mica embolicades. No contesta clarament les preguntes formulades."},
+			{"id":"2","text": "Fa servir un llenguatge tècnic adequat, amb una entonació correcta, sense falques i amb un to de veu audible pel públic. Explica clarament els aspectes fonamentals del projecte. Contesta correctament allò que se li pregunta, reformulant la pregunta si cal."},
+			{"id":"3","text": "Fa servir un llenguatge tècnic adequat, amb una entonació correcta, sense falques i amb un to de veu audible pel públic. Explica clarament els aspectes fonamentals del projecte. Quan se li fan preguntes, respon lligant la resposta amb altres elements del treball. S'expressa amb naturalitat. Utilitza el to de veu i la velocitat per guiar l'exposició."}
+		],
+		[
+			{"id":"0","text": "El llenguatge no verbal indica nerviosisme, però sobretot manca de preparació i d'assaig."},
+			{"id":"1","text": "Es nota l'assaig. El llenguatge no verbal indica nerviosisme. L'estudiant es mou massa o massa poc, utilitza pocs elements de suport al llenguatge no verbal, o es noten forçats."},
+			{"id":"2","text": "Es nota la preparació i el control del nerviosisme. L'estudiant utilitza diverses tècniques dellenguatge no verbal (mira a tothom, mou les mans per reafirmar idees, etc.). Sap gestionar el ritme i els silencis. La vestimenta és adequada."},
+			{"id":"3","text": "L'estudiant controla i influeix el públic amb missatges no verbals; aconsegueix que la gent l'escolti quan el missatge fonamental és l'oral, i que llegeixi la transparència quan és el missatge fonamental. Al torn de preguntes, els seus gestos indiquen atenció, concentració, i seguretat."}
+		],
+		[
+			{"id":"0","text": "No s'utilitzen taules o gràfiques de suport, quan podrien ajudar a entendre el projecte. A la presentació falten la majoria dels elements bàsics (títol, numeració de les transparències, etc.). Les transparències estan massa atapeïdes o massa buides. L'exposició és caòtica, falten algunes parts, mentre que altres s'expliquen massa. No es defineixen els termes o conceptes nous."},
+			{"id":"1","text": "Les taules o gràfiques no s'entenen bé, o no es distingeixen per mal ús de colors i de la mida de la lletra. Falten alguns elements bàsics a les transparències. El nombre de línies per transparència, la mida de la lletra, etc. són adequades. A l'exposició s'intenta explicar tot el projecte, o falten parts importants, pel que resulta complicat de seguir. Es mesclen conceptes."},
+			{"id":"2","text": "L'ús de taules, gràfiques, imatges, colors, quantitat d'informació, grandària de la lletra, etc. són adequats i permeten entendre millor la presentació. Les transparències tenen tots els elements bàsics: numeració, títol, última transparència, indicador de progrés, capçaleres i peus de pàgina; el nombre de línies per transparència i la mida de la lletra, són correctes L'estudiant ha seleccionat adequadament les parts del projecte a exposar. Es defineixen els termes nous quan apareixen i es recorden quan cal."},
+			{"id":"3","text": "L'ús de taules, gràfiques, imatges, colors, quantitat d'informació, grandària de la lletra, etc. agilitzen la presentació i ajuden a treure conclusions. Els recursos en general estan tots presents, i plantejats de manera original, i fan la presentació més àgil i amena. Les parts exposades ofereixen una visió global del projecte, i fan que l'explicació sigui adequada i amena. El públic es queda amb una bona impressió."}
+		]
+	]
+}

@@ -1,0 +1,52 @@
+﻿{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "L'alumne no ha especificat el problema."},
+			{"id":"1","text": "L'alumne ha descrit el problema, encara que no suficientment."},
+			{"id":"2","text": "L'alumne ha descrit el problema, clarament i suficientment."},
+			{"id":"3","text": "L'alumne ha descrit el problema, clarament i perfectament."}
+		],
+		[
+			{"id":"0","text": "L'alumne no ha estudiat si el problema ja està resolt i s'ha d'adaptar una solució existent o si se n'ha de dissenyar una de nova."},
+			{"id":"1","text": "L'alumne ha descrit, encara que no suficientment, si el problema ja està resolt i s'ha d'adaptar una solució existent o si se n'ha de dissenyar una de nova."},
+			{"id":"2","text": "L'alumne ha estudiat si el problema ja està resolt i s'ha d'adaptar una solució existent o si se n'ha de dissenyar una de nova."},
+			{"id":"3","text": "L'alumne ha estudiat en profunditat si el problema ja està resolt i s'ha d’adaptar una solució existent (així com les possibles solucions existents) o si se n'ha de dissenyar una de nova."}
+		],
+		[
+			{"id":"0","text": "Els objectius del TFG no estan especificats en el  treball  o no son suficientment clarós, no te entitat suficient per ser un TFG."},
+			{"id":"1","text": "Els objectius del treball estan especificats, encara que no clarament i suficientment, i són tals que el projecte té entitat suficient o quasi per ser un TFG."},
+			{"id":"2","text": "Els objectius del treball estan especificats clarament i suficientment?, i són tals que el projecte té entitat suficient per ser un TFG."},
+			{"id":"3","text": "Els objectius del treball estan especificats clarament i perfectament, i són tals que el projecte té entitat més que suficient per ser un TFG."}
+		],
+		[
+			{"id":"0","text": "No estan definits l'abast del projecte i els possibles obstacles."},
+			{"id":"1","text": "Estan definits, encara que no clarament i suficientment, l'abast del projecte i els possibles obstacles."},
+			{"id":"2","text": "L'abast del projecte i els possibles obstacles estan suficientment definits."},
+			{"id":"3","text": "L'abast del projecte i els possibles obstacles estan molt ben definits."}
+		],
+		[
+			{"id":"0","text": "No estan especificats a qui va dirigit el producte."},
+			{"id":"1","text": "Els actors implicats, a qui va dirigit el producte, estan especificats (encara que no clarament i suficientment)."},
+			{"id":"2","text": "Els actors implicats, a qui va dirigit el producte,  estan especificats clarament i suficientment."},
+			{"id":"3","text": "Els actors implicats, a qui va dirigit el producte estan especificats clarament i perfectament."}
+		],
+		[
+			{"id":"0","text": "No estan especificats qui ho farà servir."},
+			{"id":"1","text": "Els actors implicats, qui ho farà servir, estan especificats (encara que no clarament i suficientment)."},
+			{"id":"2","text": "Els actors implicats,  qui ho farà servir, estan especificats clarament i suficientment."},
+			{"id":"3","text": "Els actors implicats,  qui ho farà servir, estan especificats clarament i perfectament."}
+		],
+		[
+			{"id":"0","text": "No estan especificats qui se beneficiarà del resultat del treball."},
+			{"id":"1","text": "Els actors implicats, qui es beneficiarà dels seus resultats, estan especificats (encara que no clarament i suficientment)."},
+			{"id":"2","text": "Els actors implicats, qui es beneficiarà dels seus resultats, estan especificats clarament i suficientment."},
+			{"id":"3","text": "Els actors implicats,  qui es beneficiarà dels seus resultats, estan especificats clarament i perfectament."}
+		]
+	]
+}

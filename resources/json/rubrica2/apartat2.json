@@ -1,0 +1,16 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "No s'ha plantejat la conveniència de modificar els mètodes inicialment dissenyats."},
+			{"id":"1","text": "L'estudiant ha canviat la metodologia sense justificar els canvis."},
+			{"id":"2","text": "L'estudiant ha justificat els canvis dels mètodes inicials o la inutilitat de canviar-los."},
+			{"id":"3","text": "Ha justificat perfectament els canvis dels mètodes inicials o l'estudiant segueix la metodologia inicial ja que era la correcta."}
+		]
+	]
+}

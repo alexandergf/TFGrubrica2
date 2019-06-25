@@ -1,0 +1,40 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "No ha identificat prèviament les tecnologies per solucionar el problema plantejat."},
+			{"id":"1","text": "Ha identificat  poques tecnologies per solucionar el problema plantejat."},
+			{"id":"2","text": "Ha identificat adequadament les tecnologies que poden ajudar a resoldre el problema."},
+			{"id":"3","text": "Ha identificat i comparat en profunditat  les tecnologies que pot resoldre el seu problema."}
+		],
+		[
+			{"id":"0","text": "No es considera cap mena d'alternativa ni es justifica el camí triat."},
+			{"id":"1","text": "Es consideren alternatives obviant-ne algunes d'importants. L'alternativa escollida no sembla la millor o no està prou justificada."},
+			{"id":"2","text": "Es considera una varietat suficient d'alternatives. L'alternativa escollida és la correcta i l'elecció està adequadament justificada."},
+			{"id":"3","text": "Considera pràcticament totes les alternatives raonables. L'alternativa escollida és la correcta i l'elecció està molt ben justificada."}
+		],
+		[
+			{"id":"0","text": "Les solucions proposades no tenen qualitat, no són clares ni concises, o no tenen res a veure amb el problema plantejat."},
+			{"id":"1","text": "Les solucions obtingudes són poc clares, es presenten desordenades, tenen menys qualitat de l'esperada, o resulten poc convincents per resoldre el problema plantejat."},
+			{"id":"2","text": "En general, les solucions al treball són clares, concises i de qualitat. Gairebé totes són conseqüents amb el problema plantejat al TFG i el solucionen."},
+			{"id":"3","text": "L'alumne ha  estat capaç de proposar noves solucions que resolen perfectament el problema plantejat."}
+		],
+		[
+			{"id":"0","text": "El TFG treballa un tema molt específic, aïllat de la resta de disciplines treballades al llarg dels estudis de grau."},
+			{"id":"1","text": "EL'estudiant ha treballat un tema molt específic, tocant de forma molt superficial altres disciplines treballades al llarg dels estudis de grau."},
+			{"id":"2","text": "L'alumne ha desenvolupat el TFG combinant diverses disciplines treballades al llarg dels estudis de grau."},
+			{"id":"3","text": "L'alumne ha desenvolupat el TFG integrant de forma excel·lent diverses disciplines treballades al llarg dels estudis de grau."}
+		],
+		[
+			{"id":"0","text": "L'alumne lliurament part de desenvolupament, però aquest no segueix la metodologia, tampoc segueix la planificació. El desenvolupament no s'ajusta amb les dates de la planificació."},
+			{"id":"1","text": "L'alumne lliurament part de desenvolupament, però aquest només segueix en part la metodologia i la planificació de la rúbrica 1 o de la modificada. El desenvolupament no s'ajusta amb les dates de la planificació."},
+			{"id":"2","text": "L'alumne lliurament part de desenvolupament, d'acord a la metodologia i planificació de la rúbrica, els punts lliurats corresponen amb les dates que havia posat en la planificació."},
+			{"id":"3","text": "L'alumne lliurament part de desenvolupament, d'acord amb la metodologia i planificació de la rúbrica, els punts lliurats corresponen amb les dates que havia posat en la planificació, a més fa esment en la seva escriptura dels següents punts, el que dóna a entendre que té molt ben estructurat el seu desenvolupament."}
+		]
+	]
+}

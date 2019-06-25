@@ -1,0 +1,82 @@
+#mensajes-body{
+    margin: auto;
+	padding: 7px;
+	width: 60%;
+    max-width: 100%;
+    font-size: 14;
+}
+#first-line, #second-line, #third-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#first-line p, #second-line p, #third-line p{
+    width: 15%; 
+    color: #0A79B8;
+    font-family: inherit;
+}
+#first-line #word, #second-line #word, #third-line #word{
+    width: 45%; 
+    padding: 5px 0px;
+    border: 1px solid black;
+    color: black;
+    font-family: inherit;
+}
+#btn-rtn {
+	min-width: 102px;
+	height: 34px;
+	background-color: #0A79B8;
+	color: white;
+	padding: 0px 15px;
+	margin: 10px auto;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.647058823529412);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.337058823529412);
+    font-family: inherit;
+}
+#btn-return{
+    margin: 0 auto;
+    width: 60%;
+    float: left;
+    display: flex;
+}
+textarea[disabled]{
+    border: 1px solid black;
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 60%;
+    height: 25%;
+    font-family: inherit;
+}
+@media screen and (max-width: 768px){
+	#mensajes-body {
+        width: 98%;
+    }
+    #first-line p, #second-line p, #third-line p{
+        width: 40%;
+    }
+    #first-line #word, #second-line #word, #third-line #word{
+        padding: 5px -5px 5px 5px;
+        width: 58%;
+    }
+    #btn-return {
+        width: 98%;
+    }
+    textarea[disabled]{
+        width: 98%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #mensajes-body {
+        width: 100%;
+        margin-left: 170px;
+    }
+    #first-line #word, #second-line #word, #third-line #word{
+        padding: 5px -5px 5px 5px;
+    }
+}

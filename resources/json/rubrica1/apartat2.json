@@ -1,0 +1,28 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "No esta especificat el estat de l'art o lo que està,  no se ajusta al TFG."},
+			{"id":"1","text": "L'estat de l'art està especificat però no suficientment."},
+			{"id":"2","text": "L'estat de l'art està especificat correctament."},
+			{"id":"3","text": "L'estat de l'art està especificat clarament i perfectament."}
+		],
+		[
+			{"id":"0","text": "Les fonts consultades no són fiables,exemple  blocs, wikipedia, etc."},
+			{"id":"1","text": "Hi ha fonts consultades però no utilitzades en l'estat de l'art."},
+			{"id":"2","text": "Hi ha fonts consultades i utilitzades correctament dins de l'estat de l'art."},
+			{"id":"3","text": "Hi ha fonts consultades i utilitzades perfectament dins de l'estat de l'art."}
+		],
+		[
+			{"id":"0","text": "No especifica la diferència entre l'estat de l'art actual amb el que espera del seu TFG."},
+			{"id":"1","text": "Especifica la diferència entre l'estat de l'art actual amb el que s'espera del seu TFG,però amb mancances."},
+			{"id":"2","text": "Especifica la diferència entre l'estat de l'art actual amb el que s'espera en el TFG de manera correcta."},
+			{"id":"3","text": "Especifica la diferència entre l'estat de l'art actual amb el que s'espera en el TFG oerfectamente a més de fer aportacions."}
+		]
+	]
+}

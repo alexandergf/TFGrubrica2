@@ -1,0 +1,22 @@
+{
+	"puntuacions": [
+		{"text":"No assolit", "punts":"0-4"},
+		{"text":"No assolit amb el nivell suficient", "punts":"5-6"},
+		{"text":"Assolit correctament", "punts":"7-8"},
+		{"text":"Assolit amb excel·lència", "punts":"9-10"}
+	],
+	"valoracions": [
+		[
+			{"id":"0","text": "No hi ha cap descripció dels mètodes de treball."},
+			{"id":"1","text": "Descriu parcialment els mètodes de treball."},
+			{"id":"2","text": "Descriu bé els mètodes de treball."},
+			{"id":"3","text": "Descriu perfectament els mètodes de treball."}
+		],
+		[
+			{"id":"0","text": "No hi ha descripció dels processos."},
+			{"id":"1","text": "Només posa els processos, però no els defineix."},
+			{"id":"2","text": "Defineix cada un dels processos."},
+			{"id":"3","text": "Descriu perfectament cadascun dels processos de tal manera que es poden reproduir."}
+		]
+	]
+}

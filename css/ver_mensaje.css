@@ -1,0 +1,95 @@
+#mensajes-body{
+    margin: auto;
+	padding: 7px;
+	width: 60%;
+	max-width: 100%;
+}
+#mensajes-table{
+    border-spacing: 20px 5px;
+    table-layout:fixed;
+}
+#mensajes-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #0A79B8;
+    margin-bottom: 10px; 
+    font-weight: normal; 
+    font-size: 14;
+    font-family: inherit;
+}
+#mensajes-table td{
+    border: 1px solid black;
+    font-family: inherit;
+}
+#mensajes-table #no-mesajes{
+    border: 0;
+    font-family: inherit;
+}
+#mensajes-table #btn-id{
+    border: 0;
+    font-family: inherit;
+}
+#mensajes-table #assu{
+    width: 69.33%;
+    font-family: inherit;
+}
+#mensajes-table #date{
+    width: 15%;
+    font-family: inherit;
+}
+#mensajes-table td button{
+    font-size: 14;
+    border: 0;
+    color: #0080ff;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+#btn-inici{
+    min-width: 102px;
+	height: 34px;
+	background-color: #0A79B8;
+	color: white;
+	padding: 0px 15px;
+	margin: 10px auto;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.647058823529412);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.337058823529412);
+    font-family: inherit;
+}
+#btn-ini{
+    margin: 10px auto;
+    width: 100%;
+    float: left;
+    display: flex;
+}
+body {
+    font-family: "Helvetica Neue Med";
+}
+@media screen and (max-width: 768px){
+    #mensajes-body{
+        width: 100%;
+    }
+   #mensajes-table{
+       width: 95%;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	#mensajes-body{
+        width: 100%;
+    }
+   #mensajes-table{
+       width: 95%;
+   }
+   #btn-inici{
+       width: 40%;
+   }
+}

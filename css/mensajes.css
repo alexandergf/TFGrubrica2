@@ -1,0 +1,105 @@
+#mensajes-body{
+    margin: auto;
+	padding: 7px;
+	width: 60%;
+	max-width: 100%;
+}
+#destinatario, #asunto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
+
+p{
+    color: #0A79B8;
+    width: 10%;
+    font-family: inherit;
+}
+#destinatario select, #asunto input[type=text]{
+        width: 45%; 
+        padding: 5px 0px;
+        border: 1px solid black;
+        color: black;
+        border-radius: 0;
+        font-size: 14;
+        font-family: inherit;
+}
+input[type=submit],#btn-review{
+	min-width: 102px;
+	height: 34px;
+	background-color: #0A79B8;
+	color: white;
+	padding: 0px 15px;
+	margin: 10px auto;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.647058823529412);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.337058823529412);
+    float: none;
+    font-family: inherit;
+}
+textarea{
+    width: 60%;
+    height: 25%;
+    align-self: left;
+    font-family: inherit;
+}
+#env{
+    margin: 10px auto;
+    width: 60%;
+    float: left;
+    display: flex;
+}
+@media screen and (max-width: 768px){
+	textarea{
+        width: 95%;
+        height: 20%;
+    }
+    #mensajes-body{
+        width: 100%;
+    }
+    p{
+        width: 30%;
+    }
+    #destinatario select, #asunto input[type="text"]{
+        width: 65%;
+    }
+    #env{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    input[type="submit"], #btn-review{
+        margin: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	textarea{
+        width: 95%;
+        height: 20%;
+    }
+    #mensajes-body{
+        width: 100%;
+    }
+    p{
+        width: 30%;
+    }
+    #destinatario select, #asunto input[type="text"]{
+        width: 65%;
+    }
+    #env{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    input[type="submit"], #btn-review{
+        margin: 0;
+    }
+}
